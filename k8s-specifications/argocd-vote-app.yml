@@ -93,7 +93,7 @@ kind: Deployment
 metadata:
   labels:
     app: vote
-  name: vote
+  name: vote-app
 spec:
   replicas: 1
   selector:
